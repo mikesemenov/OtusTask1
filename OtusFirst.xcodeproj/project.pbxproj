@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883B16012AACE6EC001637A0 /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B16002AACE6EC001637A0 /* MenuScreen.swift */; };
+		883B16052AACF9C4001637A0 /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B16042AACF9C4001637A0 /* UIKitView.swift */; };
 		8841FEDC2AA7B94D00361822 /* OtusFirstApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841FEDB2AA7B94D00361822 /* OtusFirstApp.swift */; };
 		8841FEDE2AA7B94D00361822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841FEDD2AA7B94D00361822 /* ContentView.swift */; };
 		8841FEE02AA7B94E00361822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8841FEDF2AA7B94E00361822 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		8841FEED2AA7B94E00361822 /* OtusFirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841FEEC2AA7B94E00361822 /* OtusFirstTests.swift */; };
 		8841FEF72AA7B94E00361822 /* OtusFirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841FEF62AA7B94E00361822 /* OtusFirstUITests.swift */; };
 		8841FEF92AA7B94E00361822 /* OtusFirstUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841FEF82AA7B94E00361822 /* OtusFirstUITestsLaunchTests.swift */; };
+		8841FF062AA7BA5100361822 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8841FF052AA7BA5100361822 /* DashboardScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		883B16002AACE6EC001637A0 /* MenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreen.swift; sourceTree = "<group>"; };
+		883B16042AACF9C4001637A0 /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
 		8841FED82AA7B94D00361822 /* OtusFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8841FEDB2AA7B94D00361822 /* OtusFirstApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusFirstApp.swift; sourceTree = "<group>"; };
 		8841FEDD2AA7B94D00361822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,7 @@
 		8841FEF22AA7B94E00361822 /* OtusFirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtusFirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8841FEF62AA7B94E00361822 /* OtusFirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusFirstUITests.swift; sourceTree = "<group>"; };
 		8841FEF82AA7B94E00361822 /* OtusFirstUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusFirstUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8841FF052AA7BA5100361822 /* DashboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				8841FEDB2AA7B94D00361822 /* OtusFirstApp.swift */,
 				8841FEDD2AA7B94D00361822 /* ContentView.swift */,
+				8841FF052AA7BA5100361822 /* DashboardScreen.swift */,
+				883B16002AACE6EC001637A0 /* MenuScreen.swift */,
+				883B16042AACF9C4001637A0 /* UIKitView.swift */,
 				8841FEDF2AA7B94E00361822 /* Assets.xcassets */,
 				8841FEE12AA7B94E00361822 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883B16012AACE6EC001637A0 /* MenuScreen.swift in Sources */,
 				8841FEDE2AA7B94D00361822 /* ContentView.swift in Sources */,
 				8841FEDC2AA7B94D00361822 /* OtusFirstApp.swift in Sources */,
+				883B16052AACF9C4001637A0 /* UIKitView.swift in Sources */,
+				8841FF062AA7BA5100361822 /* DashboardScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

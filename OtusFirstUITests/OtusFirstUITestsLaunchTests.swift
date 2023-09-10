@@ -1,10 +1,3 @@
-//
-//  OtusFirstUITestsLaunchTests.swift
-//  OtusFirstUITests
-//
-//  Created by Mikhail Semenov on 05.09.2023.
-//
-
 import XCTest
 
 final class OtusFirstUITestsLaunchTests: XCTestCase {

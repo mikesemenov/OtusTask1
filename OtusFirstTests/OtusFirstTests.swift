@@ -1,10 +1,3 @@
-//
-//  OtusFirstTests.swift
-//  OtusFirstTests
-//
-//  Created by Mikhail Semenov on 05.09.2023.
-//
-
 import XCTest
 @testable import OtusFirst
 

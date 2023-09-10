@@ -1,21 +1,27 @@
-//
-//  ContentView.swift
-//  OtusFirst
-//
-//  Created by Mikhail Semenov on 05.09.2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var selectedTab = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        // MARK: - Наличие Табов
+        TabView(selection: $selectedTab) {
+            Group {
+        // MARK: - Наличие навигации из первого таба(Не уверен в задании)
+                DashboardScreen(tab: $selectedTab)
+                    .tag(0)
+                    .tabItem {
+                        Label("Dashboard", systemImage: "house")
+                    }
+                
+                SettingsScreen()
+                    .tag(1)
+                    .tabItem {
+                        Label("Settings", systemImage: "gear")
+                    }
+            }
         }
-        .padding()
     }
 }
 
